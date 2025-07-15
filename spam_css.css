@@ -1,0 +1,94 @@
+/* === Main Container Styles === */
+.stApp {
+    background-color: #fffcfe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Header Styles === */
+.st-emotion-cache-1kyxreq {
+    text-align: center;
+    padding: 1rem 0;
+    color: #f1f1f1;
+}
+
+.st-emotion-cache-1kyxreq h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #ffffff, #9b59b6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* === Input Text Area === */
+.stTextArea textarea {
+    border-radius: 10px !important;
+    padding: 15px !important;
+    border: 2px solid #dfe6e9 !important;
+    font-size: 16px !important;
+    min-height: 150px !important;
+}
+
+.stTextArea label {
+    font-weight: 600 !important;
+    color: #2c3e50 !important;
+    font-size: 1.1rem !important;
+}
+
+/* === Button Styles === */
+.stButton button {
+    background: linear-gradient(90deg, #3498db, #9b59b6) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: all 0.3s ease !important;
+    width: 100%;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3) !important;
+}
+
+/* === Result Display === */
+.stAlert {
+    border-radius: 10px !important;
+    padding: 20px !important;
+}
+
+.st-emotion-cache-1a32fsj {
+    margin-top: 2rem !important;
+}
+
+/* === Footer Styles === */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* === Sidebar Styles === */
+.st-emotion-cache-6qob1r {
+    background: linear-gradient(180deg, #3498db, #2980b9) !important;
+    color: white !important;
+}
+
+.st-emotion-cache-16txtl3 h2 {
+    color: white !important;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+    .st-emotion-cache-1kyxreq h1 {
+        font-size: 2rem;
+    }
+    
+    .stTextArea textarea {
+        min-height: 120px !important;
+    }
+}
